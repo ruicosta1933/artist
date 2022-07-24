@@ -1,0 +1,9 @@
+.container{
+
+}
+
+.banner{
+    height: 730px;
+    width: 100%;
+    object-fit: cover;
+}
