@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si"
 import { FiTwitter } from "react-icons/fi"
 export default function Contact() {
     return (
-            <div  className={styles.container}>
+                <div  className={styles.container}>
                     <div className={styles.group}>
                        <AiOutlineInstagram size={40}/> <a href="https://www.instagram.com/rui_costa_01/"><b>daInstagram</b> </a>
                     </div>
@@ -14,6 +14,6 @@ export default function Contact() {
                     <div className={styles.group}>
                        <FiTwitter size={40} /> <a href="https://twitter.com/ruicosta607"> <b>daTwitter</b></a>
                     </div>
-            </div>
+                </div>
         )
 }

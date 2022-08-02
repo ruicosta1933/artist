@@ -26,11 +26,13 @@
 @media (max-width :560px){
     .container {
         height: 150px;
+        justify-content: center;
+        width: 100%;
     }
     .group {
         text-decoration: none;
         display: flex;
-        width: 25%;
+        width: 100%;
         height: 75px;
         justify-content: center;
         align-items: center;
