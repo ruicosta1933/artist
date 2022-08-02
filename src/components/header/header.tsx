@@ -12,17 +12,15 @@ export function Header() {
         <div className={styles.container}>
             <Logo />
             <div className={styles.menu}>
-                <Menu title="SHOP" link="/shop" />
-                <Menu title="VIDEOS" link="/videos" />
-                <Menu title="TOUR" link="/tour" />
-                <Menu title="LYRICS" link="/lyrics" />
+                <Menu title="HOME" link="/" />
+                <Menu title="EVENTS" link="/events" />
+                <Menu title="CONTACT" link="/contact" />
             </div>
             { active && <div className={styles.menuSlide}>  
                         <div className={styles.closeButton} onClick={() => setActive(!active)}><AiOutlineClose size={30}/></div>
-                <Menu title="SHOP" link="/shop" />
-                <Menu title="VIDEOS" link="/videos" />
-                <Menu title="TOUR" link="/tour" />
-                <Menu title="LYRICS" link="/lyrics" />
+                            <Menu title="HOME" link="/" />
+                            <Menu title="EVENTS" link="/events" />
+                            <Menu title="CONTACT" link="/contact" />
                         </div>
             }
 
