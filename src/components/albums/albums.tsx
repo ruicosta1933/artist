@@ -21,6 +21,7 @@ export default function Albums() {
                     <p>&emsp;&emsp;&#9679; Ramiro - Soba Nota</p>
                 </div>
             </div>
+            <div style={{border: "1px solid white", width: "100%"}}></div>
             <div className={styles.division}>
                 <div className={styles.desc}> 
                     <h2>Intelligence with Wings (Trailer)</h2>

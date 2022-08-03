@@ -6,13 +6,13 @@ export default function Contact() {
     return (
                 <div  className={styles.container}>
                     <div className={styles.group}>
-                       <AiOutlineInstagram size={40}/> <a href="https://www.instagram.com/rui_costa_01/"><b>daInstagram</b> </a>
+                       <AiOutlineInstagram size={40}/> <a target="_blank" href="https://www.instagram.com/rui_costa_01/"><b>daInstagram</b> </a>
                     </div>
                     <div className={styles.group}>
-                       <SiGmail size={40}/> <a href="mailto:ruicosta607@gmail.com"> <b>daEmail</b></a>
+                       <SiGmail size={40}/> <a target="_blank" href="mailto:ruicosta607@gmail.com"> <b>daEmail</b></a>
                     </div>
                     <div className={styles.group}>
-                       <FiTwitter size={40} /> <a href="https://twitter.com/ruicosta607"> <b>daTwitter</b></a>
+                       <FiTwitter size={40} /> <a target="_blank" href="https://twitter.com/ruicosta607"> <b>daTwitter</b></a>
                     </div>
                 </div>
         )
