@@ -35,6 +35,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    border: 1px solid green;
 }
 
 .text {
@@ -43,19 +44,23 @@
     justify-content: center;
     align-items: center;
     color: white;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-@media (max-width :980px){
+@media (max-width :1030px){
     .container{
         display:block;
+        height: 500px;
     }
     .divImage{
         width: 100%;
-        height: 60%;
+        height: 50%;
     }
     .divText{
         width: 100%;
-        height: 40%;
+        height: 50%;
     }
     h1{
         font-size: 20px;

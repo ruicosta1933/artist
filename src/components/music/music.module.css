@@ -1,12 +1,12 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     display: flex;
     justify-content: space-between;
     margin: 0 89px;
 }
 
-@media (max-width : 1300px) {
+@media (max-width : 1530px) {
     .container {
         display: flex;
         align-items: center;
