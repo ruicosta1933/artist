@@ -8,6 +8,7 @@ import { Music } from './components/music';
 import { Footer } from './components/footer/footer';
 import { Events } from './components/events/events';
 import Contact from './components/contact/contact';
+import Albums from './components/albums/albums';
 function App() {
  
   return (
@@ -15,8 +16,8 @@ function App() {
     <Header />
     <Banner />
     <BrowserRouter>
-    <Routes>
-            <Route path="/"  element={<><Music /></>}>
+          <Routes>
+            <Route path="/"  element={<><Music /><hr></hr><Albums/><hr></hr></>}>
             </Route>
             <Route path="/events" element={<><Events /></>}>
             </Route>
@@ -26,7 +27,6 @@ function App() {
     </BrowserRouter>
     <Footer />
     </>
-    
   );
 }
 
