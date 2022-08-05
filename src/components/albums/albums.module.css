@@ -48,11 +48,15 @@ a {
     }
 }
 @media (max-width : 1000px) {
+    .division{
+        display: flex;
+        flex-direction: column;
+    }
     .image{
         display: none;
     }
     .imageDiv{
-        display: none;
+        width: 100%;
     }
     .desc{
         height: 100%;
