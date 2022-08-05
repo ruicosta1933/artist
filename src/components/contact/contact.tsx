@@ -15,7 +15,7 @@ export default function Contact() {
                      <AiOutlineInstagram size={40}/> <a target="_blank" href="https://www.instagram.com/iamdacosta_/"><b>daInstagram</b> </a>
                   </div>
                   <div className={styles.group}>
-                     <FiTwitter size={40}/> <a target="_blank" href="https://twitter.com/ruicosta607"> <b>daTwitter</b></a>
+                     <FiTwitter size={40}/> <a target="_blank" href="https://twitter.com/iamdacosta_"> <b>daTwitter</b></a>
                   </div>
                   <div className={styles.group}>
                      <FaTiktok size={40} /> <a target="_blank" href="https://www.tiktok.com/@iamdacosta_"><b>daTikTok</b></a>
@@ -27,7 +27,7 @@ export default function Contact() {
                <div  className={styles.container}>
                   
                     <div className={styles.group} style={{alignContent: "center"}}>
-                       <SiGmail size={40}/> <a target="_blank" href="mailto:ruicosta607@gmail.com"> <b>daEmail</b></a>
+                       <SiGmail size={40}/> <a target="_blank" href="mailto:iamdacostacontact@gmail.com"> <b>daEmail</b></a>
                     </div>
                </div>
                <div style={{color: "white", textAlign: "center", height: "10px", marginBottom:"20px"}}>

@@ -17,8 +17,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.soundCloud{
+    font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;
+}
+.soundCloud2{
+    color: #cccccc; text-decoration: none;
+}
 .imageDiv{
+    width: 50%;
     height: 100%;
 }
 .image{
@@ -30,6 +36,10 @@
     text-align: justify;
     height: 100%;
     width: 55%;
+}
+a {
+    color:  lightgrey;
+    text-decoration: none;
 }
 
 @media (max-width : 1520px) {
