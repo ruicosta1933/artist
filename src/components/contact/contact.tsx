@@ -31,7 +31,7 @@ export default function Contact() {
                     </div>
                </div>
                <div style={{color: "white", textAlign: "center", height: "10px", marginBottom:"20px"}}>
-                  <h1><u>Contactos Musicais</u></h1>
+                  <h1><u>Redes Musicais</u></h1>
                </div>
                <div  className={styles.container}>
                     <div className={styles.group} style={{alignContent: "center"}}>
