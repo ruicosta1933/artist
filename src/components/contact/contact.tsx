@@ -12,13 +12,13 @@ export default function Contact() {
                
                <div  className={styles.container}>
                   <div className={styles.group}>
-                     <AiOutlineInstagram size={40}/> <a target="_blank" href="https://www.instagram.com/iamdacosta_/"><b>daInstagram</b> </a>
+                     <AiOutlineInstagram size={40}/> <a target="_blank" href="https://www.instagram.com/rui_costa_01/"><b>Instagram</b> </a>
                   </div>
                   <div className={styles.group}>
-                     <FiTwitter size={40}/> <a target="_blank" href="https://twitter.com/iamdacosta_"> <b>daTwitter</b></a>
+                     <FiTwitter size={40}/> <a target="_blank" href="https://twitter.com/ruicosta607"> <b>Twitter</b></a>
                   </div>
                   <div className={styles.group}>
-                     <FaTiktok size={40} /> <a target="_blank" href="https://www.tiktok.com/@iamdacosta_"><b>daTikTok</b></a>
+                     <FaTiktok size={40} /> <a target="_blank" href="https://www.tiktok.com/@iamdacosta_"><b>TikTok</b></a>
                   </div>
                </div>
                <div style={{color: "white", textAlign: "center", height: "10px", marginBottom:"20px"}}>
@@ -27,7 +27,7 @@ export default function Contact() {
                <div  className={styles.container}>
                   
                     <div className={styles.group} style={{alignContent: "center"}}>
-                       <SiGmail size={40}/> <a target="_blank" href="mailto:iamdacostacontact@gmail.com"> <b>daEmail</b></a>
+                       <SiGmail size={40}/> <a target="_blank" href="mailto:ruicosta607@gmail.com"> <b>Email</b></a>
                     </div>
                </div>
                <div style={{color: "white", textAlign: "center", height: "10px", marginBottom:"20px"}}>
@@ -35,13 +35,13 @@ export default function Contact() {
                </div>
                <div  className={styles.container}>
                     <div className={styles.group} style={{alignContent: "center"}}>
-                       <FaSpotify size={40}/> <a target="_blank" href="https://open.spotify.com/artist/6SMGmPZDizQV4hCYxVy2hh?si=_1xeETJBRWWUBcAOroW6Fg"> <b>daSpotify</b></a>
+                       <FaSpotify size={40}/> <a target="_blank" href="https://open.spotify.com/artist/6SMGmPZDizQV4hCYxVy2hh?si=_1xeETJBRWWUBcAOroW6Fg"> <b>Spotify</b></a>
                     </div>
                     <div className={styles.group} style={{alignContent: "center"}}>
-                       <AiOutlineYoutube size={40}/> <a target="_blank" href="https://www.youtube.com/channel/UC9nrA3nvaiLHNn3qPmtiB5g"> <b>daYoutube</b></a>
+                       <AiOutlineYoutube size={40}/> <a target="_blank" href="https://www.youtube.com/channel/UC9nrA3nvaiLHNn3qPmtiB5g"> <b>Youtube</b></a>
                     </div>
                     <div className={styles.group} style={{alignContent: "center"}}>
-                       <FaSoundcloud size={40}/> <a target="_blank" href="https://soundcloud.com/iamdacosta"> <b>daSoundCloud</b></a>
+                       <FaSoundcloud size={40}/> <a target="_blank" href="https://soundcloud.com/ruicosta01"> <b>SoundCloud</b></a>
                     </div>
                     
                </div>

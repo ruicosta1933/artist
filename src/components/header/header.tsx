@@ -10,7 +10,7 @@ export function Header() {
 
     return(
         <div className={styles.container}>
-            <Logo />
+             <Logo />
             <div className={styles.menu}>
                 <Menu title="HOME" link="/" />
                 <Menu title="EVENTS" link="/events" />
